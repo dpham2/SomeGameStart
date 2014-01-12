@@ -1,1 +1,2 @@
 F:\dev\SomeGame\SomeGame\SomeGameContent\obj\x86\Debug\SomeGameContent.contentprojResolveAssemblyReference.cache
+E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGameContent\obj\x86\Debug\ResolveAssemblyReference.cache

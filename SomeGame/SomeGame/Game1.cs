@@ -24,6 +24,8 @@ namespace SomeGame
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.PreferredBackBufferWidth = 1920;
+            graphics.PreferredBackBufferHeight = 1080;
             Content.RootDirectory = "Content";
         }
 
@@ -36,8 +38,6 @@ namespace SomeGame
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            graphics.PreferredBackBufferWidth = 1600;
-            graphics.PreferredBackBufferHeight = 1200;
             this.IsMouseVisible = true;
             base.Initialize();
         }
@@ -60,7 +60,7 @@ namespace SomeGame
         private void LoadImages()
         {
             //Load images
-            background = Content.Load<Texture2D>("Ground1");
+            background = Content.Load<Texture2D>("Ground1-2");
         }
 
         private void LoadAudio()

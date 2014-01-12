@@ -5,3 +5,10 @@ F:\dev\SomeGame\SomeGame\SomeGame\obj\x86\Debug\SomeGame.csprojResolveAssemblyRe
 F:\dev\SomeGame\SomeGame\SomeGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 F:\dev\SomeGame\SomeGame\SomeGame\obj\x86\Debug\SomeGame.exe
 F:\dev\SomeGame\SomeGame\SomeGame\obj\x86\Debug\SomeGame.pdb
+E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\SomeGame.exe
+E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\SomeGame.pdb
+E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\SomeGame.exe
+E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\SomeGame.pdb
+E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\Content\Ground1-2.xnb
