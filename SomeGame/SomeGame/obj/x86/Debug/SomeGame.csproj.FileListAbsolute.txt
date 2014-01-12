@@ -1,0 +1,7 @@
+F:\dev\SomeGame\SomeGame\SomeGame\bin\x86\Debug\Content\Ground1.xnb
+F:\dev\SomeGame\SomeGame\SomeGame\bin\x86\Debug\SomeGame.exe
+F:\dev\SomeGame\SomeGame\SomeGame\bin\x86\Debug\SomeGame.pdb
+F:\dev\SomeGame\SomeGame\SomeGame\obj\x86\Debug\SomeGame.csprojResolveAssemblyReference.cache
+F:\dev\SomeGame\SomeGame\SomeGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\dev\SomeGame\SomeGame\SomeGame\obj\x86\Debug\SomeGame.exe
+F:\dev\SomeGame\SomeGame\SomeGame\obj\x86\Debug\SomeGame.pdb

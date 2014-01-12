@@ -18,6 +18,8 @@ namespace SomeGame
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Texture2D background;
+        KeyboardState oldState;
 
         public Game1()
         {
@@ -34,7 +36,9 @@ namespace SomeGame
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            graphics.PreferredBackBufferWidth = 1600;
+            graphics.PreferredBackBufferHeight = 1200;
+            this.IsMouseVisible = true;
             base.Initialize();
         }
 
@@ -47,7 +51,21 @@ namespace SomeGame
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            LoadImages();
+            LoadAudio();
+
             // TODO: use this.Content to load your game content here
+        }
+
+        private void LoadImages()
+        {
+            //Load images
+            background = Content.Load<Texture2D>("Ground1");
+        }
+
+        private void LoadAudio()
+        {
+            //Load audio.
         }
 
         /// <summary>
@@ -67,11 +85,15 @@ namespace SomeGame
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            KeyboardState newState = Keyboard.GetState();
+            // Allows the game to exit
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || (newState.IsKeyUp(Keys.Escape) && oldState.IsKeyDown(Keys.Escape)))
                 this.Exit();
 
             // TODO: Add your update logic here
 
+
+            oldState = newState;
             base.Update(gameTime);
         }
 
@@ -84,6 +106,9 @@ namespace SomeGame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            spriteBatch.Draw(background, new Rectangle(0, 0, background.Width, background.Height), Color.White);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
