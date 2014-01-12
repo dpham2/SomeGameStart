@@ -18,8 +18,13 @@ namespace SomeGame
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Texture2D background;
         KeyboardState oldState;
+        MouseState oldMouseState;
+
+        Texture2D bob;
+        Texture2D background;
+
+        Rectangle bobPosition;
 
         public Game1()
         {
@@ -61,6 +66,8 @@ namespace SomeGame
         {
             //Load images
             background = Content.Load<Texture2D>("Ground1-2");
+            bob = Content.Load<Texture2D>("bob");
+            bobPosition = new Rectangle(0, 0, bob.Width, bob.Height);
         }
 
         private void LoadAudio()
@@ -84,16 +91,23 @@ namespace SomeGame
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            // Allows the game to exit
             KeyboardState newState = Keyboard.GetState();
+            MouseState newMouseState = Mouse.GetState();
+
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || (newState.IsKeyUp(Keys.Escape) && oldState.IsKeyDown(Keys.Escape)))
                 this.Exit();
 
             // TODO: Add your update logic here
 
+            if (newMouseState.LeftButton == ButtonState.Pressed)
+            {
+                bobPosition.X = newMouseState.X;
+                bobPosition.Y = newMouseState.Y;
+            }
 
             oldState = newState;
+            oldMouseState = newMouseState;
             base.Update(gameTime);
         }
 
@@ -108,6 +122,7 @@ namespace SomeGame
             // TODO: Add your drawing code here
             spriteBatch.Begin();
             spriteBatch.Draw(background, new Rectangle(0, 0, background.Width, background.Height), Color.White);
+            spriteBatch.Draw(bob, bobPosition, Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);

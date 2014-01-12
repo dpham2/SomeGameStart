@@ -12,3 +12,11 @@ E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\Microso
 E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\SomeGame.exe
 E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\SomeGame.pdb
 E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\Content\Ground1-2.xnb
+F:\dev\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\Content\Ground1-2.xnb
+F:\dev\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\Content\bob.xnb
+F:\dev\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\SomeGame.exe
+F:\dev\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\SomeGame.pdb
+F:\dev\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\SomeGame.csprojResolveAssemblyReference.cache
+F:\dev\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\dev\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\SomeGame.exe
+F:\dev\SomeGameStart\SomeGame\SomeGame\obj\x86\Debug\SomeGame.pdb

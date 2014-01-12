@@ -7,8 +7,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\Content\Ground1-2.xnb</Output>
-      <Time>2014-01-12T13:30:25.2535044-05:00</Time>
+      <Output>F:\dev\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\Content\Ground1-2.xnb</Output>
+      <Time>2014-01-12T17:41:58.5303969-05:00</Time>
+    </Item>
+    <Item>
+      <Source>bob.png</Source>
+      <Name>bob</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\dev\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\Content\bob.xnb</Output>
+      <Time>2014-01-12T17:44:32.8790587-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -16,10 +25,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGameContent\</RootDirectory>
-      <LoggerRootDirectory>E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGameContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\My Things\GitHub\GitHub\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>F:\dev\SomeGameStart\SomeGame\SomeGameContent\</RootDirectory>
+      <LoggerRootDirectory>F:\dev\SomeGameStart\SomeGame\SomeGame\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\dev\SomeGameStart\SomeGame\SomeGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\dev\SomeGameStart\SomeGame\SomeGame\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -47,8 +56,8 @@
         <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-01-05T15:52:16.4633409-05:00</Value>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-01-05T16:11:28.0011124-05:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
